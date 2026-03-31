@@ -1,0 +1,20 @@
+127.0.0.1 localhost
+127.0.1.1 craft-interactive-Aspire-A325-51
+127.0.0.1 project_schedule.localhost
+127.0.0.1 zeez_group.localhost
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+127.0.0.1 first_site.localhost
+127.0.0.1 second_site.loclhost
+127.0.0.1 library_management
+127.0.0.1 service_request
+127.0.0.1 room_booking_system
+127.0.0.1 installation_request
+127.0.0.1 estimation_form
+127.0.0.1 project_schedule.localhost
+127.0.0.1 project_schedule.localhost
+127.0.0.1 qualtrec_frappe
