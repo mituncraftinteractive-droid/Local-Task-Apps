@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-01-07 10:20:52.992364",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_r9q2",
+  "amended_from",
+  "meeting_room",
+  "organizer",
+  "department",
+  "from_time",
+  "to_time",
+  "purpose",
+  "status",
+  "workflow_state",
+  "qr_code_html",
+  "check_in_status",
+  "qr_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_r9q2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Room Booking",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "meeting_room",
+   "fieldtype": "Link",
+   "label": "Meeting Room",
+   "options": "Meeting Room"
+  },
+  {
+   "fieldname": "organizer",
+   "fieldtype": "Link",
+   "label": "Organizer",
+   "options": "User"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "from_time",
+   "fieldtype": "Datetime",
+   "label": "From Time"
+  },
+  {
+   "fieldname": "to_time",
+   "fieldtype": "Datetime",
+   "label": "To Time"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Small Text",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nPending Approval\nConfirmed\nCancelled\nCompleted"
+  },
+  {
+   "fieldname": "workflow_state",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Workflow State"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Pending",
+   "fieldname": "check_in_status",
+   "fieldtype": "Select",
+   "label": "Check In Status",
+   "options": "Pending\nChecked In"
+  },
+  {
+   "fieldname": "qr_data",
+   "fieldtype": "Data",
+   "label": "QR Data"
+  },
+  {
+   "fieldname": "qr_code_html",
+   "fieldtype": "HTML",
+   "label": "QR code"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-13 16:07:37.754381",
+ "modified_by": "Administrator",
+ "module": "Booking System",
+ "name": "Room Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
